@@ -1,0 +1,20 @@
+.ItemListContainer {
+    background-color: aquamarine;
+}
+
+.ItemListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* permite que las tarjetas bajen a otra fila */
+    justify-content: center;
+    /* centra las tarjetas */
+}
+
+.products-container {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    gap: 2rem;
+}

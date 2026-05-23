@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Auriculares Bluetooth",
+        "description": "Auriculares inalámbricos con cancelación de ruido.",
+        "price": 35000,
+        "image": "/img/auricular.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Mouse Gamer",
+        "description": "Mouse ergonómico con 6 botones programables.",
+        "price": 22000,
+        "image": "/img/mouse.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Teclado Mecánico",
+        "description": "Teclado retroiluminado con switches azules.",
+        "price": 45000,
+        "image": "/img/teclado.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Monitor Full HD",
+        "description": "Monitor de 24 pulgadas con resolución 1080p.",
+        "price": 120000,
+        "image": "/img/monitor.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Notebook",
+        "description": "Notebook con procesador i5 y 8GB RAM.",
+        "price": 650000,
+        "image": "/img/notebook.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Silla Gamer",
+        "description": "Silla ergonómica con soporte lumbar.",
+        "price": 180000,
+        "image": "/img/silla_gamer.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Parlante Portátil",
+        "description": "Parlante Bluetooth resistente al agua.",
+        "price": 40000,
+        "image": "/img/parlante.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Smartwatch",
+        "description": "Reloj inteligente con monitor de ritmo cardíaco.",
+        "price": 75000,
+        "image": "/img/smartwatch.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Tablet",
+        "description": "Tablet de 10 pulgadas con Android.",
+        "price": 95000,
+        "image": "/img/tablet.jpg"
+    }
+]
