@@ -1,12 +1,12 @@
-export const validateForm = (data) => {
+export const ValidateForm = (data) => {
     const errors = {};
 
     if (!data.name) {
-        errors.name = "Debe ingresar un nombre."
+        errors.name = "Debe ingresar un nombre"
     }
 
-    if (!lastName) {
-        errors.lastName = "Debe ingresar un apellido"
+    if (!data.lastname) {
+        errors.lastname = "Debe ingresar un apellido"
     }
 
     if (!data.email) {

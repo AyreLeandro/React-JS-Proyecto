@@ -3,6 +3,11 @@
     flex-direction: column;
     max-width: 24rem;
     margin: 3rem auto;
-    /* border: 1px solid; */
     gap: 16px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin: 0;
 }

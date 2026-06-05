@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { FormUI } from "./FormUI"
-import { validateForm } from "../../Utils/ValidateForm"
+import { ValidateForm } from "../../Utils/ValidateForm";
 
 export const FormContainer = () => {
     const [formData, setFormData] = useState({
@@ -20,12 +20,12 @@ export const FormContainer = () => {
     }
 
     const handleSubmit = (e) => {
-        e.preventDefault()
+        e.preventDefault();
 
-        const error = validateForm(formData)
+        const error = ValidateForm(formData)
 
         if (Object.keys(error).length > 0) {
-            setErrors(errors)
+            setErrors(error)
         } else {
             // si no hay errores se resetea al estado "errors"
             setErrors({})
@@ -34,5 +34,5 @@ export const FormContainer = () => {
         }
     };
 
-    return (<FormUI onChange={handleChange} onSubmit={handleSubmit} formData={formData} errors={errors} />)
+    return <FormUI onChange={handleChange} onSubmit={handleSubmit} formData={formData} errors={errors} />
 };
